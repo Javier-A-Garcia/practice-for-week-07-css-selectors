@@ -8,6 +8,9 @@
 
 body > p {
     text-indent: 1em;
+    text-align: justify;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
 }
 
 h1, h2, h3 {
@@ -148,4 +151,34 @@ h3, .bk7 {
 
 .ad2 {
     margin-left: 50%;
+}
+
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 1%;
+    font-size: small;
+}
+
+
+a:any-link {
+    text-decoration: none;
+}
+
+a:any-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+pre {
+    width: fit-content;
+    margin: 100px auto 100px;
+    text-align: center;
+}
+
+pre > a:any-link {
+    color: black;
 }
